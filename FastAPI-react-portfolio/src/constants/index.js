@@ -1,44 +1,45 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+import python from "../assets/icons/python.svg"; 
+import pytorch from "../assets/icons/pytorch.svg";
 import {
     car,
     contact,
     css,
-    estate,
-    express,
+    estate,   
     git,
     github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
+    html,    
+    linkedin,   
     pricewise,
-    react,
-    redux,
-    sass,
+    react,    
     snapgram,
     summiz,
     tailwindcss,
-    threads,
-    typescript,
-    python,
+    threads,    
+    
+    
 } from "../assets/icons";
 
 
 export const skills = [
     {
+        imageUrl: python,  
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: pytorch,  
+        name: "Python",
+        type: "Machine learning library",
+    },
+
+
+    {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
+    
     {
         imageUrl: git,
         name: "Git",
@@ -54,66 +55,21 @@ export const skills = [
         name: "HTML",
         type: "Frontend",
     },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
+    
+    
+  
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: python,  
-        name: "Python",
-        type: "Programming Language",
-    },
+    
 ];
 
 export const experiences = [
@@ -233,3 +189,5 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
+
+export const ABOUT_TEXT = `I'm am Mechanical engineer with Master's degree in Machine design - but with a twist. But that's not all, I've also dipped my toes into the exciting world of Artificial Intelligence and python development. My journey in AI has led me to develop a deep passion for several cutting-edge technologies. AI, Generative AI, Machine Learning and Data Analysis are all domains I am deeply passionate about. But, I'm not just about the software. My background in Engineering allows me to bring a unique perspective to my work in AI.I am always excited about learning new things and looking for new challanges.`;
