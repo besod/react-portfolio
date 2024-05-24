@@ -23,8 +23,10 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    python,
 } from "../assets/icons";
+
 
 export const skills = [
     {
@@ -106,7 +108,12 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: python,  
+        name: "Python",
+        type: "Programming Language",
+    },
 ];
 
 export const experiences = [
