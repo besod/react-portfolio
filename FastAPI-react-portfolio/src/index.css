@@ -26,9 +26,9 @@ body:has(.card[data-color="green"]:hover) {
     @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
   }
 
-  .head-text {
-    @apply sm:text-5xl text-3xl font-semibold sm:leading-snug font-poppins;
-  }
+  /* .head-text {
+    @apply sm:text-5xl  text-3xl font-semibold  font-poppins leading-10 sm:leading-normal;
+  } */
 
   .subhead-text {
     @apply font-semibold sm:text-3xl text-xl relative font-poppins;
@@ -38,9 +38,9 @@ body:has(.card[data-color="green"]:hover) {
     @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
   }
 
-  .biniyam-about {
+  /* .biniyam-name {
     @apply bg-gradient-to-r from-blue-400 to-cyan-600 bg-clip-text text-transparent;
-}
+} */
 
   .input {
     @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card;
@@ -79,7 +79,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .cta-text {
-    @apply text-black-500 font-extrabold flex-1 text-3xl max-md:text-center;
+    @apply text-white font-extrabold flex-1 text-3xl max-md:text-center;
   }
 }
 
@@ -188,3 +188,64 @@ body:has(.card[data-color="green"]:hover) {
 .red-asterisk {
   color: red;
 }
+
+.logo-size {
+  width: 150%;
+  height: 150%;
+  object-fit: contain;
+}
+
+.engineering-logo {
+  width: 50%;
+  height: 50%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.head-text {
+  font-family: "Smooch", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  background: #00BFFF; /* Cyan color */
+  background: rgba(0, 191, 255); /* Cyan color with 90% opacity */
+  /*background: linear-gradient(to right, blue, cyan); /* Add your gradient here */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media screen and (max-width: 640px) {
+  .head-text {
+    font-size: 2.5rem;
+  }
+}
+.text-marker {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 640px) {
+  .text-marker {
+    font-size: 2rem;
+  }
+}
+
+.engineering-text {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .engineering-text {
+    font-size: 1.5rem;
+  }
+  
+}
+
