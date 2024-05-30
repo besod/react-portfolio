@@ -63,7 +63,7 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation("idle");
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    <section className="bg-black relative flex lg:flex-row flex-col max-container h-[100vh]">
       {alert.show && <Alert {...alert} />}
       <Alert {...alert} />
       <div className="flex-1 min-w-[50%] flex flex-col">
@@ -72,7 +72,7 @@ const Contact = () => {
           className="w-full flex flex-col  gap-7 mt-14"
           onSubmit={handleSubmit}
         >
-          <label className="text-black-500 font-semibold">
+          <label className="text-white font-semibold">
             Name <span className="red-asterisk"> *</span>
             <input
               type="text"
@@ -86,7 +86,7 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-900 font-semibold">
+          <label className="text-white font-semibold">
             Email <span className="red-asterisk"> *</span>
             <input
               type="email"
@@ -100,7 +100,7 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-white font-semibold">
             Message <span className="red-asterisk"> *</span>
             <textarea
               name="message"

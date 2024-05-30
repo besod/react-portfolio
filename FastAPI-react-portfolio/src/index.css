@@ -209,9 +209,8 @@ body:has(.card[data-color="green"]:hover) {
   font-weight: 400;
   font-style: normal;
   font-size: 5rem;
-  background: #00BFFF; /* Cyan color */
+  background: #00BFFF; 
   background: rgba(0, 191, 255); /* Cyan color with 90% opacity */
-  /*background: linear-gradient(to right, blue, cyan); /* Add your gradient here */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -242,6 +241,8 @@ body:has(.card[data-color="green"]:hover) {
   font-size: 2rem;
 }
 
+
+
 @media screen and (max-width: 640px) {
   .engineering-text {
     font-size: 1.5rem;
@@ -249,3 +250,35 @@ body:has(.card[data-color="green"]:hover) {
   
 }
 
+@media screen and (max-width: 640px) {
+  .engineering-text {
+    font-size: 1.5rem;
+  }
+}
+
+  .smooch-text {
+    font-family: "Smooch", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem; /* Adjust this value to change the font size */
+    background: #00BFFF; 
+    background: rgba(0, 191, 255); /* Cyan color with 90% opacity */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .smooch-text {
+      font-size: 2rem; /* Adjust this value to change the font size on small screens */
+    }
+  }
+
+  .project-name {
+    color: #00BFFF; /* Cyan color */
+  }
+
+.nav-link {
+  color : white !important;
+  font-weight: bold !important;
+}

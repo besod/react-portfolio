@@ -72,7 +72,7 @@ export const experiences = [
     project_title: "STABLE DIFFUSION",
     company_name: "Link Arkitektur",
     icon: link,
-    iconBg: "#ffffff",
+    iconBg: "#d3d3d3",
     date: "",
     points: [
       "Conducted research and experimentation on stable diffusion architectural workflow.",
@@ -85,7 +85,7 @@ export const experiences = [
     project_title: "ARCHICAD DATA MANAGEMENT",
     company_name: "Link Arkitektur",
     icon: link,
-    iconBg: "#ffffff",
+    iconBg: "#d3d3d3",
     date: "",
     points: [
       "Developing python package to extract design and construction data from ArchiCAD models for machine learning applications.",
@@ -117,8 +117,11 @@ export const experiences = [
       "Coordinated and led a team of six students designing a test rig for a scaled down prototype, from concept design to construction and testing.",
       "Built and assembled important test rig components using KTH's workshop machines.",
       "Modeled and analyzed critical test rig components using Solidedge & Ansys software to optimize design and material usage.",
-      
+      "Read more about the project's current development here: https://noviocean.energy/"
+
+
     ],
+    
   },
 ];
 
@@ -131,12 +134,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/besod",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/biniyam-negussie/",
   },
 ];
 
@@ -147,7 +150,7 @@ export const projects = [
     name: "Amazon Price Tracker",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+    link: "https://github.com/besod",
   },
   {
     iconUrl: threads,
@@ -155,7 +158,7 @@ export const projects = [
     name: "Full Stack Threads Clone",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    link: "https://github.com/besod",
   },
   {
     iconUrl: car,
@@ -163,7 +166,7 @@ export const projects = [
     name: "Car Finding App",
     description:
       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    link: "https://github.com/besod",
   },
   {
     iconUrl: snapgram,
@@ -171,7 +174,7 @@ export const projects = [
     name: "Full Stack Instagram Clone",
     description:
       "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    link: "https://github.com/besod",
   },
   {
     iconUrl: estate,
@@ -179,7 +182,7 @@ export const projects = [
     name: "Real-Estate Application",
     description:
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    link: "https://github.com/besod",
   },
   {
     iconUrl: summiz,
@@ -187,12 +190,12 @@ export const projects = [
     name: "AI Summarizer Application",
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    link: "https://github.com/besod",
   },
 ];
 
-export const ABOUT_TEXT = `I am a Mechanical Engineer with a Master’s degree in Machine Design, but with a twist. Based in Sweden, my academic background and professional journey have led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Data Analysis.
+export const ABOUT_TEXT = `I am a Mechanical Engineer with a Master’s degree in Machine Design, but with a twist. Based in Sweden, my academic background has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Data Analysis.
 
-My expertise extends to Python development, where I’ve applied my skills to various AI projects. My engineering background provides a unique perspective to my work in AI, allowing me to bridge the gap between mechanical design and software development.
+My engineering background provides a unique perspective to my work in AI, allowing me to bridge the gap between mechanical design and software development.
 
 I am deeply passionate about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`;
