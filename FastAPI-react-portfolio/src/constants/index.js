@@ -150,7 +150,7 @@ export const projects = [
     name: "React Based Portfolio Website",
     description:
       "This project is a portfolio website developed using React and TailwindCSS. It serves as an interactive showcase for my skills, projects, and experience. The site is fully responsive, ensuring compatibility across various devices and screen sizes.",
-    link: "https://github.com/besod",
+    link: "https://github.com/besod/react-portfolio",
   },
 
   {
