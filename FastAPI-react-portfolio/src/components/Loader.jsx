@@ -1,3 +1,5 @@
+// Loader is a component that displays a loading spinner while the page is loading
+
 import {Html} from "@react-three/drei"
 
 const Loader = () => {

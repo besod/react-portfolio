@@ -1,3 +1,5 @@
+// homeInfo is a component that displays information about the user and provides links to other pages. It is used in the the landing page.
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
@@ -18,7 +20,9 @@ const renderContent = {
       <h1 className="sm:text-xl sm:leading-snugg text-cneter neo-brutalism-blue py-4 px-8 text-white mx-5">
         Hi, I'm <span className="font-semibold">Biniyam</span>👋
         <br />
-        <p>I'm a full-stack developer.</p>
+        <p>
+          Python enthusiast exploring the worlds of AI, ML, and web development.
+        </p>
       </h1>
     </div>
   ),
@@ -31,9 +35,9 @@ const renderContent = {
   ),
   3: (
     <InfoBox
-    text="Lead mltiple projects to succes and worked with many companies over the year"
-    link="/projects "
-    btnText="Visit my portfolio"
+      text="Check out the projects I've worked on, from web development to AI and ML applications."
+      link="/projects "
+      btnText="Visit my portfolio"
     />
   ),
   4: (

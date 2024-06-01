@@ -1,3 +1,5 @@
+//Alert hook for contact form
+
 import {useState} from 'react'
 
 const useAlert = () => {

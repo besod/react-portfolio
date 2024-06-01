@@ -1,4 +1,4 @@
-import { useState, Suspense, useEffect, useRef} from "react";
+import { useState, Suspense, useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 import Island from "../models/Island";
@@ -10,12 +10,6 @@ import sakura from "../assets/sakura.mp3";
 import soundon from "../assets/icons/soundon.png";
 import soundoff from "../assets/icons/soundoff.png";
 
-{
-  /* <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        POPUP
-      </div> */
-}
-
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
   audioRef.current.volume = 0.5;
@@ -24,14 +18,15 @@ const Home = () => {
   const [currentStage, setCurrentStage] = useState(1);
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
-  useEffect(() => { 
+  useEffect(() => {
     if (isPlayingMusic) {
       audioRef.current.play();
-    } else {
-      audioRef.current.pause();
     }
-  }, [isPlayingMusic]);
 
+    return () => {
+      audioRef.current.pause();
+    };
+  }, [isPlayingMusic]);
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
@@ -50,7 +45,6 @@ const Home = () => {
 
   const adjustPlaneForScreenSize = () => {
     let screenScale, screenPosition;
-   
 
     if (window.innerWidth < 768) {
       screenScale = [1.5, 1.5, 1.5];
@@ -69,8 +63,8 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        <HomeInfo  currentStage = {currentStage}/>
+      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
+        <HomeInfo currentStage={currentStage} />
       </div>
       <Canvas
         className={`w-full h-screen bg-transparent ${
@@ -89,7 +83,7 @@ const Home = () => {
             intensity={0.5}
           />
           <Bird />
-          <Sky  isRotating={isRotating} />
+          <Sky isRotating={isRotating} />
           <Island
             position={islandPosition}
             scale={islandScale}
@@ -108,11 +102,12 @@ const Home = () => {
       </Canvas>
 
       <div className="absolute bottom-2 left-2">
-        <img src={!isPlayingMusic ? soundoff : soundon} 
-        alt="sound"
-        className="w-10 h-10 cursor-pointer object-contain "
-        onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-         />
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt="sound"
+          className="w-16 h-16 cursor-pointer object-contain "
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+        />
       </div>
     </section>
   );

@@ -7,6 +7,7 @@ import Technologies from "./Technologies";
 import aboutme from "../assets/images/aboutme.jpg";
 import { ABOUT_TEXT, experiences } from "../constants";
 import CTA from "../components/CTA";
+import SocialLinks from "../components/SocialLinks";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -148,6 +149,7 @@ const About = () => {
         <hr className="border-slate-200" />
 
         <CTA />
+        <div></div>
       </section>
     </div>
   );

@@ -41,22 +41,28 @@ const Contact = () => {
       )
       .then(() => {
         setIsLoading(false);
-        showAlert({ show:true, text:"Message sent successfully! I will get back to you soon.", type:'success'} );
+        showAlert({
+          show: true,
+          text: "Message sent successfully! I will get back to you soon.",
+          type: "success",
+        });
 
         setTimeout(() => {
           HideAlert();
-          setCurrentAnimation("idle")
+          setCurrentAnimation("idle");
           setForm({ name: "", email: "", message: "" });
         }, [5000]);
         formRef.current.reset();
-        
       })
       .catch(() => {
         setIsLoading(false);
         setCurrentAnimation("idle");
         console.log(error);
-        showAlert({ show:true, text:"I didn't receive your message 😢", type:'danger'} );
-
+        showAlert({
+          show: true,
+          text: "I didn't receive your message 😢",
+          type: "danger",
+        });
       });
   };
   const handleFocus = () => setCurrentAnimation("walk");
@@ -127,25 +133,23 @@ const Contact = () => {
       </div>
       <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]  ">
         <Canvas
-        camera={{
-          position: [0, 0, 5],
-          fov: 75,
-          near: 0.1,
-          far: 1000,
-        
-        }}>
-          <directionalLight intensity={2.5} position={[0,0,1]} />
+          camera={{
+            position: [0, 0, 5],
+            fov: 75,
+            near: 0.1,
+            far: 1000,
+          }}
+        >
+          <directionalLight intensity={2.5} position={[0, 0, 1]} />
           <ambientLight intensity={0.5} />
-          <Suspense fallback= {<Loader/>}>
+          <Suspense fallback={<Loader />}>
             <Fox
-            currentAnimation={currentAnimation}
-            position={[0.5, 0.35, 0]}
-            rotation={[12.8, -0.6, 0]}
-            scale={[0.5, 0.5, 0.5]}
+              currentAnimation={currentAnimation}
+              position={[0.5, 0.35, 0]}
+              rotation={[12.8, -0.6, 0]}
+              scale={[0.5, 0.5, 0.5]}
             />
-
           </Suspense>
-
         </Canvas>
       </div>
     </section>

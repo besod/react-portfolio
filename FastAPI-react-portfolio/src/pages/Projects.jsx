@@ -1,8 +1,8 @@
 import React from "react";
-import { projects, ABOUT_TEXT, experiences } from "../constants";
+import { projects} from "../constants";
 import CTA from "../components/CTA";
 import { Link } from "react-router-dom";
-import { arrow } from "../assets/icons";
+
 
 const Projects = () => {
   return (
@@ -15,7 +15,6 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-wrap  gap-16">
-          {/* <div className="flex flex-col justify-center lg:justify-start gap-3 text-white"></div> */}
           {projects.map((project) => (
             <div className="lg:w-[400px] w-full" key={project.name}>
               <div className="block-container w-12 h-12">
