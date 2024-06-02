@@ -11,7 +11,7 @@ import django from "../assets/icons/django.svg";
 import { FaGithub } from "react-icons/fa";
 import {
   contact,
-  css,
+ 
   git,
   github,
   html,
@@ -31,11 +31,7 @@ export const skills = [
     name: "Python",
     type: "Machine learning library",
   },
-  {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
+
   {
     imageUrl: git,
     name: "Git",
@@ -46,11 +42,7 @@ export const skills = [
     name: "GitHub",
     type: "Version Control",
   },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
+ 
   {
     imageUrl: react,
     name: "React",
