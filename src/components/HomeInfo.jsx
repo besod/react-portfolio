@@ -21,18 +21,18 @@ const renderContent = {
         Hi, I'm <span className="font-semibold">Biniyam</span>👋
         <br />
         <p>
-          Python enthusiast exploring the worlds of AI, ML, and web development.
+          Python enthusiast exploring the worlds of AI, ML, and Web Development.
         </p>
       </h1>
     </div>
   ),
-  2: (
-    <InfoBox
-      text="Worked with many companies and picked up many skills"
-      link="/about "
-      btnText="Learn More"
-    />
-  ),
+  // 2: (
+  //   <InfoBox
+  //     text="Worked with many projects and picked up many skills"
+  //     link="/about "
+  //     btnText="Learn More"
+  //   />
+  // ),
   3: (
     <InfoBox
       text="Check out the projects I've worked on, from web development to AI and ML applications."

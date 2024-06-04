@@ -78,7 +78,7 @@ export const experiences = [
     points: [
       "Developing python package to extract design and construction data from ArchiCAD models for machine learning applications.",
       "Collaborating with cross-functional teams including designers and architects.",
-      "Laid groundwork for further exploration, automation and informed decision making in architectural desin and construction.",
+      "Laid groundwork for further exploration, automation and informed decision making in architectural design and construction.",
     ],
   },
   {
