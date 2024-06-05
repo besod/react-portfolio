@@ -159,7 +159,7 @@ export const projects = [
     theme: "btn-back-yellow",
     name: "Culinary Review Web Application",
     description:
-      "A Django-based platform where food enthusiasts upload images, leave comments, review, and rate dishes. Connect with fellow foodies, discover new recipes, and share your culinary adventures!",
+      "A Django-based platform where food enthusiasts upload images, leave comments, review, and rate dishes. It connects fellow foodies, discover new recipes, and share their culinary.",
     link: "https://github.com/besod/kebab-review-app/tree/main",
   },
   {
