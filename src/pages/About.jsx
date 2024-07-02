@@ -33,7 +33,7 @@ const About = () => {
             animate={{ x: 100 }}
             className="head-text font-semibold drop-shadow"
           >
-            David!
+            Biniyam!
           </span>
         </motion.h1>
         <div className="flex flex-wrap">
