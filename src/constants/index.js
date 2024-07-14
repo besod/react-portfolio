@@ -172,8 +172,11 @@ export const projects = [
   },
 ];
 
-export const ABOUT_TEXT = `I am a Mechanical Engineer with a Master’s degree in Machine Design, but with a twist. Based in Sweden, my academic background has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Web Development.
-
-My engineering background provides a unique perspective to my work in AI, allowing me to bridge the gap between mechanical design and software development.
+export const ABOUT_TEXT = `With a Master’s degree in Machine Design and a background in Mechanical Engineering, my academic journey has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Web Development.
 
 I am deeply passionate about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`;
+// export const ABOUT_TEXT = `I am a Mechanical Engineer with a Master’s degree in Machine Design, but with a twist. Based in Sweden, my academic background has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Web Development.
+
+// My engineering background provides a unique perspective to my work in AI, allowing me to bridge the gap between mechanical design and software development.
+
+// I am deeply passionate about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`;
