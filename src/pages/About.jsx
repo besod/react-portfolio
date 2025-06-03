@@ -54,7 +54,11 @@ const About = () => {
             className="w-full lg:w-1/2 "
           >
             <div className="flex flex-col justify-center lg:justify-start gap-3 text-white">
-              <p className="my-2 max-w-full px-6 sm:px-6">{ABOUT_TEXT}</p>
+              {ABOUT_TEXT.map((paragraph, index) => (
+                <p key={index} className="my-2 max-w-full px-6 sm:px-6">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </motion.div>
         </div>
