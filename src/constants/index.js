@@ -131,9 +131,9 @@ export const projects = [
   {
     iconUrl: archicad,
     theme: "btn-back-black",
-    name: "Archicad Data Processor",
+    name: "Archicad Data Extractor",
     description:
-      "The ArchiCAD Data Processor is a Python-based project designed to extract and process architectural data from ArchiCAD projects using the ArchiCAD Python API. This data can then be utilized for various machine learning applications, offering insights into building dimensions and materials. By automating data extraction and analysis, this tool bridges the gap between architectural design and data-driven insights, enabling informed decision-making in building design and construction",
+      "The ArchiCAD Data Extractorr is a Python-based project designed to extract and process architectural data from ArchiCAD projects using the ArchiCAD Python API. This data can then be utilized for various machine learning applications, offering insights into building dimensions and materials. By automating data extraction and analysis, this tool bridges the gap between architectural design and data-driven insights, enabling informed decision-making in building design and construction",
     link: "https://github.com/besod",
   },
 
@@ -159,15 +159,15 @@ export const projects = [
     theme: "btn-back-yellow",
     name: "Culinary Review Web Application",
     description:
-      "A Django-based platform where food enthusiasts upload images, leave comments, review, and rate dishes. It connects fellow foodies, discover new recipes, and share their culinary.",
+      "A Django-based platform where food enthusiasts upload images, leave comments, review, and rate dishes.",
     link: "https://github.com/besod/kebab-review-app/tree/main",
   },
   {
     iconUrl: django,
     theme: "btn-back-greenish",
-    name: "Django-Driven Portfolio Showcase",
+    name: "Django-Driven Portfolio Website",
     description:
-      "The Personal Portfolio Website is a Django-based project that serves as a showcase of my  projects, and experience. With Django's robust framework, the website offers seamless navigation, efficient data management, and dynamic content presentation. ",
+      "The Personal Portfolio Website is a Django-based project that serves as a showcase of projects. With Django's robust framework.",
     link: "https://github.com/besod/personal",
   },
 ];
