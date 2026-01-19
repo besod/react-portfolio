@@ -42,10 +42,65 @@ const Technologies = () => {
         dragConstraints={{ left: -100, right: 100 }}
         className="text-marker  my-20 text-center text-4xl font-bold"
       >
-        Technologies
+        Tools & Technologies
       </motion.h1>
       
-      <div className="flex flex-wrap items-center justify-center gap-4">
+      {/* <motion.h2
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+        className="smooch-text my-10 text-center text-3xl font-bold py-6"
+      >
+        Engineering
+      </motion.h2> */}
+      <div className="flex flex-wrap item-center justify-center gap-4 mt-20">
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img src={Ansyslogo} alt="Ansys Logo" className="w-25 h-25" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img
+            src={SolidEdgelogo}
+            alt="Solid Edge Logo"
+            className="w-25 h-25"
+          />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img
+            src={Idatunnellogo}
+            alt="Solid Edge Logo"
+            className="w-25 h-20"
+          />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img src={MatLablogo} alt="Matlab Logo" className="w-25 h-20" />
+        </motion.div>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-center gap-8 mt-16">
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
@@ -163,14 +218,7 @@ const Technologies = () => {
           <img src={Jupyterlogo} alt="Jupyter Logo" />
         </motion.div>
 
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img src={MatLablogo} alt="Matlab Logo" />
-        </motion.div>
+        
 
         <motion.div
           variants={iconVariants(2.5)}
@@ -182,51 +230,6 @@ const Technologies = () => {
             src={Scikitlearn}
             alt="Scikit-learn Logo"
             className="logo-size"
-          />
-        </motion.div>
-      </div>
-      <motion.h2
-        whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 1.1 }}
-        drag="x"
-        dragConstraints={{ left: -100, right: 100 }}
-        className="smooch-text my-10 text-center text-3xl font-bold py-6"
-      >
-        Engineering
-      </motion.h2>
-      <div className="flex flex-wrap item-center justify-center gap-4">
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img src={Ansyslogo} alt="Ansys Logo" className="engineering-logo" />
-        </motion.div>
-
-        <motion.div
-          variants={iconVariants(3.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img
-            src={SolidEdgelogo}
-            alt="Solid Edge Logo"
-            className="engineering-logo"
-          />
-        </motion.div>
-
-        <motion.div
-          variants={iconVariants(4.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img
-            src={Idatunnellogo}
-            alt="Solid Edge Logo"
-            className="engineering-logo"
           />
         </motion.div>
       </div>

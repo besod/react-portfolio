@@ -66,14 +66,12 @@ const About = () => {
 
         <div className="py-16">
           <h3 className="text-marker text-center text-4xl font-bold mt-4">
-            Project Experience
+            {/* Project Experience */}
           </h3>
         </div>
 
         <div>
-          Below are some of the key projects I’ve worked on, demonstrating my
-          technical skills and hands-on experience. Each project is a testament
-          to my ability to learn, adapt, and deliver high-quality work.
+          Selected examples of hands-on technical work. 
         </div>
 
         <div className="mt-12 flex">

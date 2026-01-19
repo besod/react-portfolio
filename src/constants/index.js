@@ -133,16 +133,16 @@ export const projects = [
     theme: "btn-back-black",
     name: "Archicad Data Extractor",
     description:
-      "The ArchiCAD Data Extractorr is a Python-based project designed to extract and process architectural data from ArchiCAD projects using the ArchiCAD Python API. This data can then be utilized for various machine learning applications, offering insights into building dimensions and materials. By automating data extraction and analysis, this tool bridges the gap between architectural design and data-driven insights, enabling informed decision-making in building design and construction",
-    link: "https://github.com/besod",
+      "A Python tool that extracts data from ArchiCAD projects using the ArchiCAD Python API. It collects information like element properties, dimensions, and materials, and outputs it in a structured format for analysis and further processing.",
+    link: "https://github.com/besod/ArchiCAD-pythonAPI",
   },
 
   {
     iconUrl: ai,
     theme: "btn-back-blue",
-    name: "Online Media Sentiment Tracker",
+    name: "Sentiment Analysis",
     description:
-      "The Media Sentiment Analyzer provides real-time insights into online media coverage sentiment. It utilizes web scraping and natural language processing (NLP) techniques to analyze news articles, categorizing sentiment as positive, negative, or neutral. With efficient data storage and visualization tools, track media sentiment trends.",
+      "A python-based sentiment analysis tool that collects news articles through web scraping and uses NLP to classify sentiment as positive, negative, or neutral.",
     link: "https://github.com/besod/Online-Media-Sentiment-Tracker/tree/main/Online-Media-Sentiment-Tracker",
   },
   {
@@ -150,38 +150,34 @@ export const projects = [
     theme: "btn-back-green",
     name: "React Based Portfolio Website",
     description:
-      "This project is a portfolio website developed using React and TailwindCSS. It serves as an interactive showcase for my skills, projects, and experience. The site is fully responsive, ensuring compatibility across various devices and screen sizes.",
+      "  A personal website built with React and Tailwind CSS to showcase my projects and experience.",
     link: "https://github.com/besod/react-portfolio",
   },
 
   {
     iconUrl: food,
     theme: "btn-back-yellow",
-    name: "Culinary Review Web Application",
+    name: "Food Review Web App",
     description:
-      "A Django-based platform where food enthusiasts upload images, leave comments, review, and rate dishes.",
+      "A Django-based web app that lets users upload images, leave comments and rate images. Built to practice backend development.",
     link: "https://github.com/besod/kebab-review-app/tree/main",
   },
-  {
-    iconUrl: django,
-    theme: "btn-back-greenish",
-    name: "Django-Driven Portfolio Website",
-    description:
-      "The Personal Portfolio Website is a Django-based project that serves as a showcase of projects. With Django's robust framework.",
-    link: "https://github.com/besod/personal",
-  },
+  // {
+  //   iconUrl: django,
+  //   theme: "btn-back-greenish",
+  //   name: "Django-Driven Portfolio Website",
+  //   description:
+  //     "The Personal Portfolio Website is a Django-based project that serves as a showcase of projects. With Django's robust framework.",
+  //   link: "https://github.com/besod/personal",
+  // },
 ];
 export const ABOUT_TEXT = [
-  `With a background in Mechanical Engineering, my academic journey has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Machine Learning, and Web Development.`,
 
-  `I enjoy learning about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`
+ `With an MSc in Engineering Design, I’ve always been interested in how things are built. 
+ I'm interested in automation and how python and machine learning can be used to improve engineering workflows.`,
+
+`I enjoy learning about these domains and am always eager to learn and take on new challenges. My journey is characterized by 
+  continuous learning and adaptation in the rapidly evolving field of technology.`
+  
 ];
 
-// export const ABOUT_TEXT = `With a Master’s degree in Machine Design and a background in Mechanical Engineering, my academic journey has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Web Development.
-
-// I am deeply passionate about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`;
-// export const ABOUT_TEXT = `I am a Mechanical Engineer with a Master’s degree in Machine Design, but with a twist. Based in Sweden, my academic background has led me to explore the intersection of engineering and cutting-edge technologies such as Artificial Intelligence, Generative AI, Machine Learning, and Web Development.
-
-// My engineering background provides a unique perspective to my work in AI, allowing me to bridge the gap between mechanical design and software development.
-
-// I am deeply passionate about these domains and am always eager to learn and take on new challenges. My journey is characterized by continuous learning and adaptation in the rapidly evolving field of technology.`;
